@@ -1,0 +1,474 @@
+﻿<process name="Project-Facebook login and logout" version="1.0" bpversion="7.1.2.3518" narrative="" byrefcollection="true" type="object" runmode="Exclusive" preferredid="7db83368-4221-4e40-9545-0ed3c9922054">
+  <appdef>
+    <element name="Project-Facebook login and logout">
+      <id>89e735e2-893f-4cc2-b924-9a7cc4877f89</id>
+      <element name="Emailid">
+        <id>a82578ba-b4f6-43e3-b42a-66f587e3da3c</id>
+        <type>HTMLEdit</type>
+        <basetype>HTMLEdit</basetype>
+        <datatype>text</datatype>
+        <diagnose>False</diagnose>
+        <attributes>
+          <attribute name="X">
+            <ProcessValue datatype="number" value="0" />
+          </attribute>
+          <attribute name="Y">
+            <ProcessValue datatype="number" value="18" />
+          </attribute>
+          <attribute name="Width">
+            <ProcessValue datatype="number" value="416" />
+          </attribute>
+          <attribute name="Height">
+            <ProcessValue datatype="number" value="40" />
+          </attribute>
+          <attribute name="Path" inuse="True">
+            <ProcessValue datatype="text" value="/HTML/BODY(1)/DIV(1)/DIV(1)/DIV(2)/DIV(1)/DIV(1)/DIV(2)/DIV(1)/DIV(3)/FORM(1)/DIV(4)/DIV(1)/DIV(1)/INPUT(1)" />
+          </attribute>
+          <attribute name="TagName" inuse="True">
+            <ProcessValue datatype="text" value="INPUT" />
+          </attribute>
+          <attribute name="ClassName" inuse="True">
+            <ProcessValue datatype="text" value="_56bg _4u9z _5ruq _8qtn" />
+          </attribute>
+          <attribute name="ID" inuse="True">
+            <ProcessValue datatype="text" value="m_login_email" />
+          </attribute>
+          <attribute name="Title" inuse="True">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="Link" inuse="True">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="InputType" inuse="True">
+            <ProcessValue datatype="text" value="text" />
+          </attribute>
+          <attribute name="InputIdentifier2" inuse="True">
+            <ProcessValue datatype="text" value="email" />
+          </attribute>
+          <attribute name="AncestorCount">
+            <ProcessValue datatype="number" value="14" />
+          </attribute>
+          <attribute name="Value">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="Enabled" inuse="True">
+            <ProcessValue datatype="flag" value="True" />
+          </attribute>
+          <attribute name="Checked">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pURL" inuse="True">
+            <ProcessValue datatype="text" value="https://m.facebook.com/?_rdr" />
+          </attribute>
+          <attribute name="ScreenBounds">
+            <ProcessValue datatype="text" value="RECT:247,602,642,663" />
+          </attribute>
+          <attribute name="matchindex">
+            <ProcessValue datatype="number" value="1" />
+          </attribute>
+          <attribute name="matchreverse">
+            <ProcessValue datatype="flag" value="True" />
+          </attribute>
+        </attributes>
+      </element>
+      <element name="Password">
+        <id>f4c7d9d0-9b52-4a0d-9806-e12472ea1d57</id>
+        <type>HTML</type>
+        <basetype>HTML</basetype>
+        <datatype>text</datatype>
+        <diagnose>False</diagnose>
+        <attributes>
+          <attribute name="X">
+            <ProcessValue datatype="number" value="0" />
+          </attribute>
+          <attribute name="Y">
+            <ProcessValue datatype="number" value="18" />
+          </attribute>
+          <attribute name="Width">
+            <ProcessValue datatype="number" value="416" />
+          </attribute>
+          <attribute name="Height">
+            <ProcessValue datatype="number" value="40" />
+          </attribute>
+          <attribute name="Path" inuse="True">
+            <ProcessValue datatype="text" value="/HTML/BODY(1)/DIV(1)/DIV(1)/DIV(2)/DIV(1)/DIV(1)/DIV(2)/DIV(1)/DIV(3)/FORM(1)/DIV(4)/DIV(3)/DIV(1)/SECTION(1)/DIV(1)/DIV(1)/DIV(1)/DIV(1)/INPUT(1)" />
+          </attribute>
+          <attribute name="TagName" inuse="True">
+            <ProcessValue datatype="text" value="INPUT" />
+          </attribute>
+          <attribute name="ClassName" inuse="True">
+            <ProcessValue datatype="text" value="_56bg _4u9z _27z2 _8qtm" />
+          </attribute>
+          <attribute name="ID" inuse="True">
+            <ProcessValue datatype="text" value="m_login_password" />
+          </attribute>
+          <attribute name="Title" inuse="True">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="Link" inuse="True">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="InputType" inuse="True">
+            <ProcessValue datatype="text" value="password" />
+          </attribute>
+          <attribute name="InputIdentifier2" inuse="True">
+            <ProcessValue datatype="text" value="pass" />
+          </attribute>
+          <attribute name="AncestorCount">
+            <ProcessValue datatype="number" value="19" />
+          </attribute>
+          <attribute name="Value">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="Enabled" inuse="True">
+            <ProcessValue datatype="flag" value="True" />
+          </attribute>
+          <attribute name="Checked">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pURL" inuse="True">
+            <ProcessValue datatype="text" value="https://m.facebook.com/?_rdr" />
+          </attribute>
+          <attribute name="ScreenBounds">
+            <ProcessValue datatype="text" value="RECT:239,648,689,655" />
+          </attribute>
+          <attribute name="matchindex">
+            <ProcessValue datatype="number" value="1" />
+          </attribute>
+          <attribute name="matchreverse">
+            <ProcessValue datatype="flag" value="True" />
+          </attribute>
+        </attributes>
+      </element>
+      <element name="Login">
+        <id>8087e276-2f33-442e-af13-7e260ddb61dd</id>
+        <type>HTMLButton</type>
+        <basetype>HTML</basetype>
+        <datatype>text</datatype>
+        <diagnose>False</diagnose>
+        <attributes>
+          <attribute name="X">
+            <ProcessValue datatype="number" value="92" />
+          </attribute>
+          <attribute name="Y">
+            <ProcessValue datatype="number" value="344" />
+          </attribute>
+          <attribute name="Width">
+            <ProcessValue datatype="number" value="416" />
+          </attribute>
+          <attribute name="Height">
+            <ProcessValue datatype="number" value="40" />
+          </attribute>
+          <attribute name="Path" inuse="True">
+            <ProcessValue datatype="text" value="/HTML/BODY(1)/DIV(1)/DIV(1)/DIV(2)/DIV(1)/DIV(1)/DIV(2)/DIV(1)/DIV(3)/FORM(1)/DIV(5)/DIV(1)/BUTTON(1)" />
+          </attribute>
+          <attribute name="TagName" inuse="True">
+            <ProcessValue datatype="text" value="BUTTON" />
+          </attribute>
+          <attribute name="ClassName" inuse="True">
+            <ProcessValue datatype="text" value="_54k8 _52jh _56bs _56b_ _28lf _9cow _56bw _56bu" />
+          </attribute>
+          <attribute name="ID" inuse="True">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="Title" inuse="True">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="Link" inuse="True">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="InputType" inuse="True">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="InputIdentifier2" inuse="True">
+            <ProcessValue datatype="text" value="" />
+          </attribute>
+          <attribute name="AncestorCount">
+            <ProcessValue datatype="number" value="13" />
+          </attribute>
+          <attribute name="Value">
+            <ProcessValue datatype="text" value="Log In" />
+          </attribute>
+          <attribute name="Enabled" inuse="True">
+            <ProcessValue datatype="flag" value="True" />
+          </attribute>
+          <attribute name="Checked">
+            <ProcessValue datatype="flag" value="False" />
+          </attribute>
+          <attribute name="pURL" inuse="True">
+            <ProcessValue datatype="text" value="https://m.facebook.com/?_rdr" />
+          </attribute>
+          <attribute name="ScreenBounds">
+            <ProcessValue datatype="text" value="RECT:239,703,743,655" />
+          </attribute>
+          <attribute name="matchindex">
+            <ProcessValue datatype="number" value="1" />
+          </attribute>
+          <attribute name="matchreverse">
+            <ProcessValue datatype="flag" value="True" />
+          </attribute>
+        </attributes>
+      </element>
+      <type>Application</type>
+      <basetype>Application</basetype>
+      <datatype>unknown</datatype>
+      <diagnose>False</diagnose>
+    </element>
+    <apptypeinfo>
+      <id>HTMLLaunch</id>
+      <parameters>
+        <parameter>
+          <name>Path</name>
+          <value>C:\Program Files\Internet Explorer\iexplore.exe</value>
+        </parameter>
+        <parameter>
+          <name>CommandLineParams</name>
+          <value>https://m.facebook.com/?_rdr</value>
+        </parameter>
+        <parameter>
+          <name>ActiveTabOnly</name>
+          <value>True</value>
+        </parameter>
+        <parameter>
+          <name>UseJavaInBrowser</name>
+          <value>False</value>
+        </parameter>
+        <parameter>
+          <name>ExcludeHTC</name>
+          <value>True</value>
+        </parameter>
+        <parameter>
+          <name>ProcessMode</name>
+          <value>Internal</value>
+        </parameter>
+        <parameter>
+          <name>ExternalProcessTimeout</name>
+          <value>0</value>
+        </parameter>
+      </parameters>
+    </apptypeinfo>
+  </appdef>
+  <view>
+    <camerax>0</camerax>
+    <cameray>0</cameray>
+    <zoom version="2">1.25</zoom>
+  </view>
+  <preconditions />
+  <endpoint narrative="" />
+  <subsheet subsheetid="c8c9f20a-5962-4175-a667-ac0023f4532b" type="CleanUp" published="True">
+    <name>Clean Up</name>
+    <view>
+      <camerax>0</camerax>
+      <cameray>0</cameray>
+      <zoom version="2">1.25</zoom>
+    </view>
+  </subsheet>
+  <subsheet subsheetid="450b6fa3-1deb-47ae-9702-09166962fa64" type="Normal" published="False">
+    <name>Action 1</name>
+    <view>
+      <camerax>0</camerax>
+      <cameray>-41</cameray>
+      <zoom version="2">1.25</zoom>
+    </view>
+  </subsheet>
+  <stage stageid="e86b05c3-af28-4d87-8573-cf1956bfcabc" name="Start" type="Start">
+    <loginhibit />
+    <display x="15" y="-105" />
+    <onsuccess>2a58c53d-e917-48fe-bf87-da8bfc787942</onsuccess>
+  </stage>
+  <stage stageid="2a58c53d-e917-48fe-bf87-da8bfc787942" name="End" type="End">
+    <loginhibit />
+    <display x="15" y="90" />
+  </stage>
+  <stage stageid="d265e38d-81b3-46a9-a29e-3753b48250d7" name="Stage1" type="ProcessInfo">
+    <display x="-195" y="-105" w="150" h="90" />
+    <references>
+      <reference>System.dll</reference>
+      <reference>System.Data.dll</reference>
+      <reference>System.Xml.dll</reference>
+      <reference>System.Drawing.dll</reference>
+    </references>
+    <imports>
+      <import>System</import>
+      <import>System.Drawing</import>
+      <import>System.Data</import>
+    </imports>
+    <language>visualbasic</language>
+    <globalcode><![CDATA[]]></globalcode>
+    <code><![CDATA[]]></code>
+  </stage>
+  <stage stageid="f364f8d9-e623-4c4f-ad55-b57dbfaa1e8d" name="Clean Up" type="SubSheetInfo">
+    <subsheetid>c8c9f20a-5962-4175-a667-ac0023f4532b</subsheetid>
+    <display x="-195" y="-105" w="150" h="90" />
+  </stage>
+  <stage stageid="359d5967-3676-4f34-ae9f-2816b53f133b" name="Start" type="Start">
+    <subsheetid>c8c9f20a-5962-4175-a667-ac0023f4532b</subsheetid>
+    <loginhibit />
+    <display x="15" y="-105" />
+    <onsuccess>b1ce1589-f1f3-47c8-8dc7-ac8e945aa775</onsuccess>
+  </stage>
+  <stage stageid="b1ce1589-f1f3-47c8-8dc7-ac8e945aa775" name="End" type="End">
+    <subsheetid>c8c9f20a-5962-4175-a667-ac0023f4532b</subsheetid>
+    <loginhibit />
+    <display x="15" y="90" />
+  </stage>
+  <stage stageid="09e519e2-2e6a-4c82-84a8-3ab81e483c4a" name="Action 1" type="SubSheetInfo">
+    <subsheetid>450b6fa3-1deb-47ae-9702-09166962fa64</subsheetid>
+    <display x="-195" y="-105" w="150" h="90" />
+  </stage>
+  <stage stageid="10407d32-35ad-4936-9de2-d2b3cde3e5eb" name="Start" type="Start">
+    <subsheetid>450b6fa3-1deb-47ae-9702-09166962fa64</subsheetid>
+    <loginhibit />
+    <display x="15" y="-195" />
+    <onsuccess>7c3c50ad-07ab-4508-a0b7-78be49aeee09</onsuccess>
+  </stage>
+  <stage stageid="af08cb0d-9cb5-4117-a25e-b77bdc77f446" name="End" type="End">
+    <subsheetid>450b6fa3-1deb-47ae-9702-09166962fa64</subsheetid>
+    <loginhibit />
+    <display x="15" y="105" />
+  </stage>
+  <stage stageid="ce8a23f6-f7f5-4853-9ef6-4f9a5a8e2231" name="Note1" type="Note">
+    <subsheetid>c8c9f20a-5962-4175-a667-ac0023f4532b</subsheetid>
+    <narrative>Clean Up Page
+
+This is an optional page where you might choose to perform some finalisation (or "cleanup") tasks as your business object is closed down.
+
+The cleanup action will be called automatically immediately after closing your business object at the end of a business process.
+
+You will not be able to call this action from a business process, nor will it be called at any other time than before the disposal of the business object.</narrative>
+    <display x="-180" y="60" w="180" h="230" />
+  </stage>
+  <stage stageid="797c578a-d5ce-4c64-95dd-ad28d49125f5" name="Note2" type="Note">
+    <narrative>Initialise Page
+
+This is an optional page where you might choose to perform some initialisation tasks after your business object is loaded.
+
+The initialise action will be called automatically immediately after loading your business object.
+
+You will not be able to call this action from a business process, nor will it be called at any other time than after the creation of the object.</narrative>
+    <display x="-180" y="60" w="180" h="230" />
+  </stage>
+  <stage stageid="d24cefc5-bd87-4dba-9d0a-1e574b98fb1b" name="Emailid" type="Data">
+    <subsheetid>450b6fa3-1deb-47ae-9702-09166962fa64</subsheetid>
+    <loginhibit />
+    <display x="-225" y="15" />
+    <datatype>text</datatype>
+    <initialvalue xml:space="preserve">hihellohowareyou134@gmail.com</initialvalue>
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="e9ca956c-8526-4dad-80f9-9d83a660406a" name="Password" type="Data">
+    <subsheetid>450b6fa3-1deb-47ae-9702-09166962fa64</subsheetid>
+    <loginhibit />
+    <display x="-225" y="45" w="120" h="30" />
+    <datatype>password</datatype>
+    <initialvalueenc>2,61,33,114,47,109,84,2,40,7,24</initialvalueenc>
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="b4b3ac23-3648-4520-a19f-023c037bbca6" name="Username" type="Write">
+    <subsheetid>450b6fa3-1deb-47ae-9702-09166962fa64</subsheetid>
+    <loginhibit />
+    <display x="15" y="-75" />
+    <onsuccess>5a95fb7b-55fa-4338-9a0b-4b8f76836dc1</onsuccess>
+    <step expr="[Emailid]">
+      <element id="a82578ba-b4f6-43e3-b42a-66f587e3da3c" />
+    </step>
+  </stage>
+  <stage stageid="5a95fb7b-55fa-4338-9a0b-4b8f76836dc1" name="Password" type="Write">
+    <subsheetid>450b6fa3-1deb-47ae-9702-09166962fa64</subsheetid>
+    <loginhibit />
+    <display x="15" y="-15" />
+    <onsuccess>a026d8be-de14-4e19-b4c0-078564b7f1de</onsuccess>
+    <step expr="[Password]">
+      <element id="f4c7d9d0-9b52-4a0d-9806-e12472ea1d57" />
+    </step>
+  </stage>
+  <stage stageid="a026d8be-de14-4e19-b4c0-078564b7f1de" name="Click login" type="Navigate">
+    <subsheetid>450b6fa3-1deb-47ae-9702-09166962fa64</subsheetid>
+    <loginhibit />
+    <display x="15" y="45" />
+    <onsuccess>af08cb0d-9cb5-4117-a25e-b77bdc77f446</onsuccess>
+    <step>
+      <element id="8087e276-2f33-442e-af13-7e260ddb61dd" />
+      <action>
+        <id>HTMLClickCentre</id>
+      </action>
+    </step>
+  </stage>
+  <stage stageid="7c3c50ad-07ab-4508-a0b7-78be49aeee09" name="Launch" type="Navigate">
+    <subsheetid>450b6fa3-1deb-47ae-9702-09166962fa64</subsheetid>
+    <loginhibit />
+    <display x="15" y="-135" />
+    <onsuccess>10118a0c-764b-4a18-96cc-32b1bfa33167</onsuccess>
+    <step>
+      <element id="89e735e2-893f-4cc2-b924-9a7cc4877f89" />
+      <action>
+        <id>Launch</id>
+        <arguments>
+          <argument>
+            <id>Path</id>
+            <value>
+            </value>
+          </argument>
+          <argument>
+            <id>CommandLineParams</id>
+            <value>
+            </value>
+          </argument>
+          <argument>
+            <id>ActiveTabOnly</id>
+            <value>
+            </value>
+          </argument>
+          <argument>
+            <id>UseJavaInBrowser</id>
+            <value>
+            </value>
+          </argument>
+          <argument>
+            <id>ExcludeHTC</id>
+            <value>
+            </value>
+          </argument>
+          <argument>
+            <id>ProcessMode</id>
+            <value>
+            </value>
+          </argument>
+        </arguments>
+      </action>
+    </step>
+  </stage>
+  <stage stageid="0be3a4ad-97e8-42e1-91d0-a2613f54cf8a" name="Time Out1" type="WaitEnd">
+    <subsheetid>450b6fa3-1deb-47ae-9702-09166962fa64</subsheetid>
+    <loginhibit />
+    <display x="105" y="-15" w="30" h="30" />
+    <onsuccess>5a304422-ea76-43b9-ae6e-48f93610fbf9</onsuccess>
+    <groupid>50a65ff1-80a6-45f4-aa40-cddb3d69b558</groupid>
+  </stage>
+  <stage stageid="10118a0c-764b-4a18-96cc-32b1bfa33167" name="Wait1" type="WaitStart">
+    <subsheetid>450b6fa3-1deb-47ae-9702-09166962fa64</subsheetid>
+    <loginhibit />
+    <display x="105" y="-135" w="30" h="30" />
+    <groupid>50a65ff1-80a6-45f4-aa40-cddb3d69b558</groupid>
+    <choices>
+      <choice reply="True">
+        <name>Emailid Check Exists</name>
+        <distance>60</distance>
+        <ontrue>b4b3ac23-3648-4520-a19f-023c037bbca6</ontrue>
+        <element id="a82578ba-b4f6-43e3-b42a-66f587e3da3c" />
+        <condition>
+          <id>CheckExists</id>
+        </condition>
+        <comparetype>Equal</comparetype>
+      </choice>
+    </choices>
+    <timeout>5</timeout>
+  </stage>
+  <stage stageid="5a304422-ea76-43b9-ae6e-48f93610fbf9" name="End1" type="End">
+    <subsheetid>450b6fa3-1deb-47ae-9702-09166962fa64</subsheetid>
+    <loginhibit />
+    <display x="210" y="-15" />
+  </stage>
+</process>
